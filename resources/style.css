@@ -7,11 +7,24 @@ html, body {
   text-align: center;
 }
 
+
 body {
-  padding-top: 140px;
+  padding-top: 0px;
 }
 
-header {
+.navbar-brand {
+  color: black;
+}
+
+.navbar {
+  background-color: seashell;
+  margin-bottom: 50px;
+}
+
+.container {
+  max-width: 100%;
+}
+/*header {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -28,7 +41,7 @@ header {
 header span {
   color: black;
   padding-left: .5rem;
-}
+}*/
 /*.logo {
   display: flex;*/
   /*flex-grow: 1;*/
@@ -40,20 +53,20 @@ header span {
   padding-left: 10px;
 }*/
 
-nav {
+/*nav {
   text-align: right;
   flex-grow: 1;
-}
+}*/
 
-nav p {
+/*nav p {
   display: inline-block;
   margin-bottom: 0;
-}
+}*/
 
 nav a {
   text-decoration: none;
   color: black;
-  padding: .5rem;
+  /*padding: .5rem;*/
 }
 
 nav a:hover {
